@@ -516,7 +516,7 @@ ex_list = list(
 
 Lists can be subset using two syntaxes, the `$` operator, and square brackets `[]`. The `$` operator returns a named **element** of a list. The `[]` syntax returns a **list**, while the `[[]]` returns an **element** of a list.
 
-- `ex_list[1]` returns a list contain the first element.
+- `ex_list[1]` returns a list containing the first element.
 - `ex_list[[1]]` returns the first element of the list, in this case, a vector.
 
 ```{r}
@@ -829,7 +829,7 @@ power_of_num(power = 5)
 
 To further illustrate a function with a default argument, we will write a function that calculates sample variance two ways.
 
-By default, is will calculate the unbiased estimate of $\sigma^2$, which we will call $s^2$.
+By default, it will calculate the unbiased estimate of $\sigma^2$, which we will call $s^2$.
 
 \[
 s^2 = \frac{1}{n - 1}\sum_{i=1}^{n}(x - \bar{x})^2
